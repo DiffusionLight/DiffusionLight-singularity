@@ -1,9 +1,10 @@
 # DiffusionLight-singularity
 Singularity setup script for DiffusiongLight. This is useful when you want to run diffusion light on a machine that doesn't have root (Solution for [Issue #5](https://github.com/DiffusionLight/DiffusionLight/issues/5#issuecomment-2439480877))
 
-# Installation
 
-## Pre-requirement
+## Running on Singularity
+
+### Pre-requirement
 
 You need to install Singularity-CE on the machine that you want to run first. 
 
@@ -11,7 +12,7 @@ You can follow [this guide](https://chatgpt.com/share/671cce80-9310-800d-9447-83
 
 Alternatively, you can use [Apptainer](https://apptainer.org/), but I'm going to stick with Singularity-CE for this example.
 
-## Clone this repository 
+### Clone this repository 
 
 We first clone this directory and  `cd` into it. because we need 2 files with `singularity.def` for building the container image and `requirement.txt` to install python component
 
@@ -20,7 +21,7 @@ git clone https://github.com/DiffusionLight/DiffusionLight-singularity.git
 cd DiffusionLight-singularity
 ```
 
-## Building SIF image 
+### Building SIF image 
 
 Then we build the image into SIF format. 
 
@@ -28,7 +29,7 @@ Then we build the image into SIF format.
 singularity build --fakeroot diffusionlight.sif singularity.def
 ```
 
-## Running DiffusionLight
+### Running DiffusionLight
 
 We clone the main repo directory and `cd` into it. 
 
