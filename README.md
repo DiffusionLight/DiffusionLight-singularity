@@ -1,5 +1,5 @@
 # DiffusionLight-singularity
-Singularity setup script for DiffusiongLight. This is useful when you want to run diffusion light on a machine that doesn't have root (Solution for [Issue #5](https://github.com/DiffusionLight/DiffusionLight/issues/5#issuecomment-2439480877))
+Singularity setup script for [DiffusionLight](https://github.com/DiffusionLight/DiffusionLight). This is useful when you want to run DiffusionLight on a machine that doesn't have root privilege (Solution for [Issue #5](https://github.com/DiffusionLight/DiffusionLight/issues/5#issuecomment-2439480877))
 
 
 ## Running on Singularity
