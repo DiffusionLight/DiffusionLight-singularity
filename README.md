@@ -34,7 +34,7 @@ singularity build --fakeroot diffusionlight.sif singularity.def
 We clone the main repo directory and `cd` into it. 
 
 ```
-https://github.com/DiffusionLight/DiffusionLight.git
+git clone https://github.com/DiffusionLight/DiffusionLight.git
 cd DiffusionLight
 ```
 
